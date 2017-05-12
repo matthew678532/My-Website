@@ -1,0 +1,26 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "my personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew678532/My-Website.git"
+  },
+  "keywords": [
+    "showcase",
+    "jekyll",
+    "sass",
+    "node",
+    "gulp"
+  ],
+  "author": "Matthew Birch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthew678532/My-Website/issues"
+  },
+  "homepage": "https://github.com/matthew678532/My-Website#readme"
+}

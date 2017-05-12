@@ -1,0 +1,21 @@
+# Site details
+name: My Website
+description: >
+  Development of my personal portfolio, have a look around and enjoy!
+
+# Handling jekyll readings
+exclude:
+  - .gitignore
+  - *.json
+  - README
+include:
+  - _pages
+
+# Conversion
+incremental: true
+
+# Serving
+port: 8080
+
+# Outputting
+permalink: pretty

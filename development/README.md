@@ -4,4 +4,4 @@
 - Pug: Templating engine allowing for dynamic insertion of content.
 - Sass: CSS pre-compiler for styling of content.
 - Gulp: Task-automation, allows for ease of large development tasks such as compiling and parsing.
-- BrowserSync: Enables synchronous cross-browser testing environments. 
+- BrowserSync: Enables synchronous cross-browser testing environments.
