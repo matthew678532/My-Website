@@ -5,11 +5,14 @@ description: >
 
 # Handling jekyll readings
 exclude:
-  - .gitignore
-  - *.json
-  - README
+  - '.gitignore'
+  - '*.json'
+  - 'README.md'
+  - '*.js'
+  - '_assets/'
+  - 'node_modules'
 include:
-  - _pages
+  - '_pages'
 
 # Conversion
 incremental: true
