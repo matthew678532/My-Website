@@ -1,0 +1,19 @@
+<footer>
+	<nav>
+		<div class="">
+			<img src="" alt="">
+			<img src="" alt="">
+			<img src="" alt="">
+		</div>
+		<ul>
+			{% for page in site.pages %}
+				{% if page.title %}
+					<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
+	<div class="">
+		<p>© Matthew Birch. All Rights Reserved.</p>
+	</div>
+</footer>
