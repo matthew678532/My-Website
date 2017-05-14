@@ -6,17 +6,7 @@
 		<img src="" alt="">
 	</figure>
 	<nav>
-		<ul>
-			{% for page in site.pages %}
-				{% if page.title %}
-					<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %}
-			{% endfor %}
-		</ul>
-		<div class="">
-			<img src="" alt="">
-			<img src="" alt="">
-			<img src="" alt="">
-		</div>
+		{% include page_nav.html %}
+		{% include social_nav.html %}
 	</nav>
 </aside>

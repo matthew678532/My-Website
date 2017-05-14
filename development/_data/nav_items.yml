@@ -1,0 +1,12 @@
+links:
+  - title: Projects
+    url: /projects/
+    order: 0
+
+  - title: About
+    url: /about/
+    order: 1
+
+  - title: Contact
+    url: /contact/
+    order: 2
