@@ -18,7 +18,12 @@ include:
 incremental: true
 
 # Serving
-port: 8080
+baseurl: ''
+url: 'http://localhost:8080'
 
 # Outputting
 permalink: pretty
+
+# Plugins
+gems:
+  - jekyll-redirect-from

@@ -39,7 +39,8 @@ gulp.task('browser-sync', ['build-jekyll', 'sass'], () => {
  browserSync.init({
 	 server: {
 		 baseDir: '_site'
-	 }
+	 },
+	 port: 8080
  })
 })
 
