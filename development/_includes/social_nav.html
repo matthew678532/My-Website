@@ -1,5 +1,6 @@
 <div class="">
-	{% for item in site.data.social.media %}
-		<a href="{{ item.url }}"><i class="fa {{ item.class }}"></i></a>
+	{% assign socials = site.data.social.media | sort: 'order'}
+	{% for social in socials %}
+		<a href="{{ social.url }}"><i class="fa {{ social.class }}"></i></a>
 	{% endfor %}
 </div>
