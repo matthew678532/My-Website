@@ -143,3 +143,90 @@ table {
 
 td, th {
   padding: 0; }
+
+.huge, .large, h1, h2, h3, h4, h5, h6 {
+  color: #212121; }
+
+.large, h1, h2, h3, h4, h5, h6 {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: normal; }
+
+.huge {
+  font-family: "Amatic SC", cursive;
+  font-weight: normal;
+  font-size: 3.5em;
+  line-height: 1.20; }
+
+.large {
+  font-size: 3.25em;
+  line-height: 1.15; }
+
+h1 {
+  font-size: 3em;
+  line-height: 1.10; }
+
+h2 {
+  font-size: 2.75em;
+  line-height: 1.05; }
+
+h3 {
+  font-size: 2.5em; }
+
+h4 {
+  font-size: 2.25em; }
+
+h5 {
+  font-size: 2em; }
+
+h6 {
+  font-size: 1.5em; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style-type: none;
+  font-family: "Yantramanav", sans-serif; }
+
+a {
+  text-decoration: none;
+  font-family: "Yantramanav", sans-serif;
+  color: #212121; }
+
+::-moz-selection {
+  background: rgba(224, 224, 224, 0.2); }
+
+::selection {
+  background: rgba(224, 224, 224, 0.2); }
+
+img::-moz-selection {
+  background: transparent; }
+
+img::selection {
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: rgba(224, 224, 224, 0.2); }
+
+body {
+  font-size: 1em;
+  line-height: 1;
+  font-family: "Yantramanav", sans-serif;
+  color: #212121;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-size-adjust: 100%; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+#sidebar {
+  background-color: lightgrey;
+  height: 100%;
+  width: 25%; }
