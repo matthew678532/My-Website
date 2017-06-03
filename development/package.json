@@ -1,0 +1,36 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "my personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew678532/My-Website.git"
+  },
+  "keywords": [
+    "showcase",
+    "jekyll",
+    "sass",
+    "node",
+    "gulp"
+  ],
+  "author": "Matthew Birch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthew678532/My-Website/issues"
+  },
+  "homepage": "https://github.com/matthew678532/My-Website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "browserslist": [
+    "last 15 versions",
+    "> 1%"
+  ]
+}

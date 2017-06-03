@@ -1,0 +1,29 @@
+# Site details
+name: Matthew Birch
+description: >
+  Development of my personal portfolio, have a look around and enjoy!
+
+# Handling jekyll readings
+exclude:
+  - '.gitignore'
+  - '*.json'
+  - 'README.md'
+  - '*.js'
+  - '_assets/'
+  - 'node_modules'
+include:
+  - '_pages'
+
+# Conversion
+incremental: true
+
+# Serving
+baseurl: ''
+url: 'http://localhost:8080'
+
+# Outputting
+permalink: pretty
+
+# Plugins
+gems:
+  - jekyll-redirect-from
