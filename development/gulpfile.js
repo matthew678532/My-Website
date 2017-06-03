@@ -11,7 +11,6 @@ const messages = {
 	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 }
 
-
 /**
  * Builds the jekyll site, under: _site
  */
@@ -50,16 +49,16 @@ gulp.task('browser-sync', ['build-jekyll', 'sass'], () => {
 	* and into root folder for caching (future builds)
   */
 gulp.task('sass', () => {
-	return gulp.src('_sass/main.sass')
+	return gulp.src('assets/css/main.sass')
 		.pipe(sass({
+			includePaths: ['css'],
 			onError: browserSync.notify
 		}))
 		.pipe(prefix())
-		.pipe(gulp.dest('_site/css'))
+		.pipe(gulp.dest('_site/assets/css'))
 		.pipe(browserSync.reload({stream: true}))
-		.pipe(gulp.dest('/css'))
+		.pipe(gulp.dest('assets/css'))
 })
-
 
 /**
  * Watcher to wait on changes to files
@@ -68,9 +67,9 @@ gulp.task('sass', () => {
  * accordance to these changes.
  */
 gulp.task('watch', () => {
-	gulp.watch('_sass/*.sass', ['sass'])
-	gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_pages/*.html', '_posts/*'], ['rebuild-jekyll'])
-	gulp.watch(['_assets/*.js'], ['rebuild-jekyll'])
+	gulp.watch('assets/css/**', ['sass'])
+	gulp.watch('assets/js/*.js', ['rebuild-jekyll'])
+	gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '_pages/*.html', '_posts/*'], ['rebuild-jekyll'])
 })
 
 gulp.task('default', ['browser-sync', 'watch'])
