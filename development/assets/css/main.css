@@ -218,8 +218,8 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  margin: 0 !important;
+    margin-box-sizing: border-box; }
 
 *:before,
 *:after {
@@ -227,6 +227,4 @@ body {
           box-sizing: border-box; }
 
 #sidebar {
-  background-color: lightgrey;
-  height: 100%;
-  width: 25%; }
+  background-color: lightgrey; }
