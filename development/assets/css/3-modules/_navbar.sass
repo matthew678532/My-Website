@@ -1,2 +1,41 @@
-#sidebar
-	background-color: lightgrey
+#header
+	background-color: $base-color
+	+position(fixed, 0 null null 0)
+	+size(20% 100%)
+
+	#header-title-container
+		padding: 10px
+		text-align: center
+
+	#header-logo-container
+		text-align: center
+
+	#navbar
+		padding: 10px
+
+		#header-page-nav
+			text-align: center
+
+			li
+				padding: 10px
+
+			a
+				color: $link-color
+				transition: color 500ms ease-in-out
+
+				&:hover
+					color: $link-hover-color
+
+				&:active
+					color: $link-active-color
+
+		.social-nav
+			position: absolute
+			padding: 20px
+			bottom: 0px
+			left: 50%
+			transform: translate(-50%, 0)
+
+			a
+				font-size: 1.3em
+				padding: 2px
