@@ -228,7 +228,7 @@ body {
           box-sizing: border-box; }
 
 main {
-  margin-left: 20%;
+  margin-left: 250px;
   background-image: -webkit-linear-gradient(left, rgba(0, 212, 255, 0.25), rgba(0, 212, 255, 0.25) 20px, transparent 20px, transparent -webkit-calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(8.33333% - 21.66667px + 20px + 20px), transparent -webkit-calc(8.33333% - 21.66667px + 20px + 20px), transparent -webkit-calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(16.66667% - 23.33333px + 20px + 20px), transparent -webkit-calc(16.66667% - 23.33333px + 20px + 20px), transparent -webkit-calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(25% - 25px + 20px + 20px), transparent -webkit-calc(25% - 25px + 20px + 20px), transparent -webkit-calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(33.33333% - 26.66667px + 20px + 20px), transparent -webkit-calc(33.33333% - 26.66667px + 20px + 20px), transparent -webkit-calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(41.66667% - 28.33333px + 20px + 20px), transparent -webkit-calc(41.66667% - 28.33333px + 20px + 20px), transparent -webkit-calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(50% - 30px + 20px + 20px), transparent -webkit-calc(50% - 30px + 20px + 20px), transparent -webkit-calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(58.33333% - 31.66667px + 20px + 20px), transparent -webkit-calc(58.33333% - 31.66667px + 20px + 20px), transparent -webkit-calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(66.66667% - 33.33333px + 20px + 20px), transparent -webkit-calc(66.66667% - 33.33333px + 20px + 20px), transparent -webkit-calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(75% - 35px + 20px + 20px), transparent -webkit-calc(75% - 35px + 20px + 20px), transparent -webkit-calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(83.33333% - 36.66667px + 20px + 20px), transparent -webkit-calc(83.33333% - 36.66667px + 20px + 20px), transparent -webkit-calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) -webkit-calc(91.66667% - 38.33333px + 20px + 20px), transparent -webkit-calc(91.66667% - 38.33333px + 20px + 20px), transparent -webkit-calc(100% - 20px), rgba(0, 212, 255, 0.25) -webkit-calc(100% - 20px), rgba(0, 212, 255, 0.25) -webkit-calc(100%));
   background-image: -o-linear-gradient(left, rgba(0, 212, 255, 0.25), rgba(0, 212, 255, 0.25) 20px, transparent 20px, transparent calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px + 20px), transparent calc(25% - 25px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px + 20px), transparent calc(50% - 30px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px + 20px), transparent calc(75% - 35px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100%));
   background-image: linear-gradient(to right, rgba(0, 212, 255, 0.25), rgba(0, 212, 255, 0.25) 20px, transparent 20px, transparent calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px + 20px), transparent calc(25% - 25px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px + 20px), transparent calc(50% - 30px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px + 20px), transparent calc(75% - 35px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100%)); }
@@ -236,6 +236,10 @@ main {
     clear: both;
     content: "";
     display: block; }
+  @media (max-width: 992px) {
+    main {
+      margin-left: 0;
+      margin-top: 250px; } }
 
 #header {
   background-color: #e0e0e0;
@@ -243,18 +247,29 @@ main {
   top: 0;
   left: 0;
   height: 100%;
-  width: 20%; }
+  width: 250px; }
+  @media (max-width: 992px) {
+    #header {
+      height: 250px;
+      width: 100%; } }
   #header #header-title-container {
-    padding: 10px;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 1em; }
+    @media (max-width: 992px) {
+      #header #header-title-container {
+        display: none; } }
   #header #header-logo-container {
     text-align: center; }
   #header #navbar {
-    padding: 10px; }
+    margin-bottom: 1em; }
     #header #navbar #header-page-nav {
       text-align: center; }
       #header #navbar #header-page-nav li {
-        padding: 10px; }
+        padding: 1em; }
+        @media (max-width: 992px) {
+          #header #navbar #header-page-nav li {
+            display: inline-block; } }
       #header #navbar #header-page-nav a {
         color: #9E9E9E;
         -webkit-transition: color 500ms ease-in-out;
@@ -265,13 +280,22 @@ main {
         #header #navbar #header-page-nav a:active {
           color: #212121; }
     #header #navbar .social-nav {
-      position: absolute;
-      padding: 20px;
-      bottom: 0px;
-      left: 50%;
       -webkit-transform: translate(-50%, 0);
           -ms-transform: translate(-50%, 0);
-              transform: translate(-50%, 0); }
+              transform: translate(-50%, 0);
+      margin-bottom: 1em;
+      position: absolute;
+      bottom: 0px;
+      left: 50%; }
+      @media (max-width: 992px) {
+        #header #navbar .social-nav {
+          position: relative;
+          text-align: center;
+          padding: 1em;
+          margin-bottom: 0px; } }
+      #header #navbar .social-nav li {
+        padding: -webkit-calc(1em / 4);
+        padding: calc(1em / 4);
+        display: inline-block; }
       #header #navbar .social-nav a {
-        font-size: 1.3em;
-        padding: 2px; }
+        font-size: 1.3em; }

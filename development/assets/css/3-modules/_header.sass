@@ -1,23 +1,30 @@
 #header
 	background-color: $base-color
 	+position(fixed, 0 null null 0)
-	+size(20% 100%)
+	+size(250px 100%)
+	+respond-to(tablets)
+		+size(100% 250px)
 
 	#header-title-container
-		padding: 10px
 		text-align: center
+		margin-bottom: $standard-margin
+		padding: $standard-padding
+		+respond-to(tablets)
+			display: none
 
 	#header-logo-container
 		text-align: center
 
 	#navbar
-		padding: 10px
+		margin-bottom: $standard-margin
 
 		#header-page-nav
 			text-align: center
 
 			li
-				padding: 10px
+				padding: $standard-padding
+				+respond-to(tablets)
+					display: inline-block
 
 			a
 				color: $link-color
@@ -30,12 +37,18 @@
 					color: $link-active-color
 
 		.social-nav
-			position: absolute
-			padding: 20px
-			bottom: 0px
-			left: 50%
 			transform: translate(-50%, 0)
+			margin-bottom: $standard-margin
+			+position(absolute, null null 0px 50%)
+			+respond-to(tablets)
+				position: relative
+				text-align: center
+				padding: 1em
+				margin-bottom: 0px
+
+			li
+				padding: calc(#{$standard-padding} / 4)
+				display: inline-block
 
 			a
 				font-size: 1.3em
-				padding: 2px

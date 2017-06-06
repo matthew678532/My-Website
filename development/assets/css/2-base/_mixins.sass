@@ -1,13 +1,6 @@
-$breakpoints: (
-	'tablets': (max-width: 992px)
-	'mobiles': (max-width: 768px)
-)
-
 =respond-to($breakpoint)
 	@if map-has-key($breakpoints, $breakpoint)
-		@media #{inspect(map-get($breakpoints, $breakpoint))}
+		@media #{map-get($breakpoints, $breakpoint)}
 			@content
-
 	@else
-		@warn "An invalid breakpoint was specified 😞, you can
-			define breakpoints within the $breakpoints map!"
+		@warn $invalid-breakpoint
