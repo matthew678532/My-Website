@@ -195,6 +195,11 @@ a {
   font-family: "Yantramanav", sans-serif;
   color: #212121; }
 
+button {
+  border: none; }
+  button:focus {
+    outline: none; }
+
 ::-moz-selection {
   background: rgba(224, 224, 224, 0.2); }
 
@@ -252,6 +257,12 @@ main {
     #header {
       height: 250px;
       width: 100%; } }
+  #header #hamburger {
+    background-color: inherit;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1em; }
   #header #header-title-container {
     text-align: center;
     margin-bottom: 1em;
