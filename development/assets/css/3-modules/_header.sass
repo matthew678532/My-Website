@@ -4,6 +4,9 @@
 	+size(250px 100%)
 	+respond-to(tablets)
 		+size(100% 250px)
+	+respond-to(mobiles)
+		position: static
+		+size(100% auto)
 
 	#hamburger
 		background-color: inherit
@@ -11,6 +14,9 @@
 		right: 0
 		top: 0
 		padding: $standard-padding
+		display: none
+		+respond-to(mobiles)
+			display: block
 
 	#header-title-container
 		text-align: center
@@ -21,9 +27,15 @@
 
 	#header-logo-container
 		text-align: center
+		+respond-to(mobiles)
+			text-align: left
+			margin: 0
+			padding: 1em
 
-	#navbar
+	.navbar
 		margin-bottom: $standard-margin
+		+respond-to(mobiles)
+			display: none
 
 		#header-page-nav
 			text-align: center
@@ -32,6 +44,8 @@
 				padding: $standard-padding
 				+respond-to(tablets)
 					display: inline-block
+				+respond-to(mobiles)
+					display: block
 
 			a
 				color: $link-color
@@ -59,3 +73,6 @@
 
 			a
 				font-size: 1.3em
+
+	.navbar-open
+		display: block

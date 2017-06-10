@@ -245,6 +245,9 @@ main {
     main {
       margin-left: 0;
       margin-top: 250px; } }
+  @media (max-width: 768px) {
+    main {
+      margin: 0; } }
 
 #header {
   background-color: #e0e0e0;
@@ -257,12 +260,21 @@ main {
     #header {
       height: 250px;
       width: 100%; } }
+  @media (max-width: 768px) {
+    #header {
+      position: static;
+      height: auto;
+      width: 100%; } }
   #header #hamburger {
     background-color: inherit;
     position: absolute;
     right: 0;
     top: 0;
-    padding: 1em; }
+    padding: 1em;
+    display: none; }
+    @media (max-width: 768px) {
+      #header #hamburger {
+        display: block; } }
   #header #header-title-container {
     text-align: center;
     margin-bottom: 1em;
@@ -272,25 +284,36 @@ main {
         display: none; } }
   #header #header-logo-container {
     text-align: center; }
-  #header #navbar {
+    @media (max-width: 768px) {
+      #header #header-logo-container {
+        text-align: left;
+        margin: 0;
+        padding: 1em; } }
+  #header .navbar {
     margin-bottom: 1em; }
-    #header #navbar #header-page-nav {
+    @media (max-width: 768px) {
+      #header .navbar {
+        display: none; } }
+    #header .navbar #header-page-nav {
       text-align: center; }
-      #header #navbar #header-page-nav li {
+      #header .navbar #header-page-nav li {
         padding: 1em; }
         @media (max-width: 992px) {
-          #header #navbar #header-page-nav li {
+          #header .navbar #header-page-nav li {
             display: inline-block; } }
-      #header #navbar #header-page-nav a {
+        @media (max-width: 768px) {
+          #header .navbar #header-page-nav li {
+            display: block; } }
+      #header .navbar #header-page-nav a {
         color: #9E9E9E;
         -webkit-transition: color 500ms ease-in-out;
         -o-transition: color 500ms ease-in-out;
         transition: color 500ms ease-in-out; }
-        #header #navbar #header-page-nav a:hover {
+        #header .navbar #header-page-nav a:hover {
           color: #212121; }
-        #header #navbar #header-page-nav a:active {
+        #header .navbar #header-page-nav a:active {
           color: #212121; }
-    #header #navbar .social-nav {
+    #header .navbar .social-nav {
       -webkit-transform: translate(-50%, 0);
           -ms-transform: translate(-50%, 0);
               transform: translate(-50%, 0);
@@ -299,14 +322,16 @@ main {
       bottom: 0px;
       left: 50%; }
       @media (max-width: 992px) {
-        #header #navbar .social-nav {
+        #header .navbar .social-nav {
           position: relative;
           text-align: center;
           padding: 1em;
           margin-bottom: 0px; } }
-      #header #navbar .social-nav li {
+      #header .navbar .social-nav li {
         padding: -webkit-calc(1em / 4);
         padding: calc(1em / 4);
         display: inline-block; }
-      #header #navbar .social-nav a {
+      #header .navbar .social-nav a {
         font-size: 1.3em; }
+  #header .navbar-open {
+    display: block; }
