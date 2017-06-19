@@ -1,11 +1,13 @@
 'use strict'
 
 const gulp = require('gulp')
+const gutil = require('gulp-util')
 const sass = require('gulp-sass')
 const browserSync = require('browser-sync').create()
 const prefix = require('gulp-autoprefixer')
 const uglify = require('gulp-uglify')
 const cp = require('child_process')
+const pump = require('pump')
 
 const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll'
 const messages = {
@@ -35,7 +37,7 @@ gulp.task('rebuild-jekyll', ['build-jekyll'], () => {
  * Wait on build-jekyll and other compilation tasks,
  * then launch the server.
  */
-gulp.task('browser-sync', ['build-jekyll', 'sass'], () => {
+gulp.task('browser-sync', ['build-jekyll', 'sass', 'js'], () => {
  browserSync.init({
 	 server: {
 		 baseDir: '_site'

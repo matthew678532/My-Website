@@ -8,8 +8,7 @@ exclude:
   - '.gitignore'
   - '*.json'
   - 'README.md'
-  - '*.js'
-  - '_assets/'
+  - 'gulpfile.js'
   - 'node_modules'
 include:
   - '_pages'
