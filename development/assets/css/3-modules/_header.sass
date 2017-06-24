@@ -2,11 +2,6 @@
 	background-color: $base-color
 	+position(fixed, 0 null null 0)
 	+size(250px 100%)
-	+respond-to(tablets)
-		+size(100% 250px)
-	+respond-to(mobiles)
-		position: static
-		+size(100% auto)
 
 	.hamburger
 		background-color: inherit
@@ -15,45 +10,29 @@
 		top: 0
 		padding: $standard-padding
 		display: none
-		+respond-to(mobiles)
-			display: block
 
 	.header-title-container
 		text-align: center
 		margin-bottom: $standard-margin
 		padding: $standard-padding
-		+respond-to(tablets)
-			display: none
 
 	.header-logo-container
 		text-align: center
-		+respond-to(mobiles)
-			text-align: left
-			margin: 0
-			padding: 1em
 
 		.header-logo
 			display: inline-block
 			background-color: teal
 			border-radius: 50%
 			+size(100px 100px)
-			+respond-to(mobiles)
-				+size(50px 50px)
 
 	.navbar
 		margin-bottom: $standard-margin
-		+respond-to(mobiles)
-			display: none
 
 		.header-page-nav
 			text-align: center
 
 			li
 				padding: $standard-padding
-				+respond-to(tablets)
-					display: inline-block
-				+respond-to(mobiles)
-					display: block
 
 			a
 				color: $link-color
@@ -69,11 +48,6 @@
 			transform: translate(-50%, 0)
 			margin-bottom: $standard-margin
 			+position(absolute, null null 0px 50%)
-			+respond-to(tablets)
-				position: relative
-				text-align: center
-				padding: 1em
-				margin-bottom: 0px
 
 			li
 				padding: calc(#{$standard-padding} / 4)
@@ -81,3 +55,44 @@
 
 			a
 				font-size: 1.3em
+
++respond-to(tablets)
+	.header
+		+size(100% 250px)
+
+		.header-title-container
+			display: none
+
+		.navbar
+			.header-page-nav
+				li
+					display: inline-block
+
+			.social-nav
+				position: relative
+				text-align: center
+				padding: 1em
+				margin-bottom: 0px
+
++respond-to(mobiles)
+	.header
+		position: static
+		+size(100% auto)
+
+		.hamburger
+			display: block
+
+		.header-logo-container
+			text-align: left
+			margin: 0
+			padding: 1em
+
+			.header-logo
+				+size(50px 50px)
+
+		.navbar
+			display: none
+
+			.header-page-nav
+				li
+					display: block
