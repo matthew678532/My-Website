@@ -1,15 +1,14 @@
 .header
 	background-color: $base-color
 	+position(fixed, 0 null null 0)
-	+size(250px 100%)
+	+size(15rem 100%)
 
 	.hamburger
 		background-color: inherit
-		position: absolute
-		right: 0
-		top: 0
 		padding: $standard-padding
 		display: none
+		+position(absolute, 0 0 null null)
+
 
 	.header-title-container
 		text-align: center
@@ -23,7 +22,7 @@
 			display: inline-block
 			background-color: teal
 			border-radius: 50%
-			+size(100px 100px)
+			+size(6rem 6rem)
 
 	.navbar
 		margin-bottom: $standard-margin
@@ -47,18 +46,18 @@
 		.social-nav
 			transform: translate(-50%, 0)
 			margin-bottom: $standard-margin
-			+position(absolute, null null 0px 50%)
+			+position(absolute, null null 0 50%)
 
 			li
 				padding: calc(#{$standard-padding} / 4)
 				display: inline-block
 
 			a
-				font-size: 1.3em
+				font-size: 1.2rem
 
 +respond-to(tablets)
 	.header
-		+size(100% 250px)
+		+size(100% 15rem)
 
 		.header-title-container
 			display: none
@@ -71,8 +70,8 @@
 			.social-nav
 				position: relative
 				text-align: center
-				padding: 1em
-				margin-bottom: 0px
+				padding: 1rem
+				margin-bottom: 0rem
 
 +respond-to(mobiles)
 	.header
@@ -85,10 +84,10 @@
 		.header-logo-container
 			text-align: left
 			margin: 0
-			padding: 1em
+			padding: 1rem
 
 			.header-logo
-				+size(50px 50px)
+				+size(3rem 3rem)
 
 		.navbar
 			display: none

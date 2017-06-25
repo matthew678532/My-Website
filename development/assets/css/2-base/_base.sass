@@ -1,8 +1,12 @@
 // Typography
 
+\:root
+	text-size: 16px
+
 .huge, .large, h1, h2, h3, h4, h5, h6
 	color: $font-color
 	margin: 0
+	font-weight: normal
 
 .large, h1, h2, h3, h4, h5, h6
 	font-family: $yantramanav
@@ -10,33 +14,32 @@
 
 .huge
 	font-family: $amatic-sc
-	font-weight: normal
-	font-size: 3.5em
+	font-size: 3.4rem
 	line-height: 1.20
 
 .large
-	font-size: 3.25em
+	font-size: 3rem
 	line-height: 1.15
 
 h1
-	font-size: 3em
+	font-size: 2.6rem
 	line-height: 1.10
 
 h2
-	font-size: 2.75em
+	font-size: 2.2rem
 	line-height: 1.05
 
 h3
-	font-size: 2.5em
+	font-size: 1.8rem
 
 h4
-	font-size: 2.25em
+	font-size: 1.6rem
 
 h5
-	font-size: 2em
+	font-size: 1.4rem
 
 h6
-	font-size: 1.5em
+	font-size: 1.2rem
 
 // List & anchor styles
 
@@ -75,7 +78,7 @@ body
 // Body & html presets
 
 body
-  font-size: 1em
+  font-size: 1rem
   line-height: 1
   font-family: $yantramanav
   color: $font-color
@@ -94,14 +97,14 @@ body
 // Container styles for main content
 
 main
-	margin-left: 250px
+	margin-left: 15rem
 	+grid-container
 	+grid-visual
 
 +respond-to(tablets)
 	main
 		margin-left: 0
-		margin-top: 250px
+		margin-top: 15rem
 
 +respond-to(mobiles)
 	main
