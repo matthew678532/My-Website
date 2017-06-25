@@ -1,13 +1,35 @@
 .header
 	background-color: $base-color
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 	+position(fixed, 0 null null 0)
 	+size(15rem 100%)
 
-	.hamburger
+	.toggle-container
 		background-color: inherit
-		padding: $standard-padding
+		cursor: pointer
+		margin: $standard-margin
 		display: none
+		width: 3rem
+		height: 3rem
 		+position(absolute, 0 0 null null)
+
+		.toggle,
+		.toggle::before,
+		.toggle::after
+			content: ''
+			position: relative
+			display: block
+			height: 4px
+			top: 50%
+			transform: translateY(-50%)
+			width: 100%
+			background-color: $font-color
+
+		.toggle::before
+			top: -12px
+
+		.toggle::after
+			top: 12px
 
 
 	.header-title-container
@@ -55,6 +77,23 @@
 			a
 				font-size: 1.2rem
 
+				& > i
+					transition: color 300ms ease
+					color: $font-color
+
+			.fa-linkedin
+				&:hover
+					color: $linkedin-blue
+
+			.fa-google-plus
+				&:hover
+					color: $google-red
+
+			.fa-facebook
+				&:hover
+					color: $facebook-blue
+
+
 +respond-to(tablets)
 	.header
 		+size(100% 15rem)
@@ -78,7 +117,7 @@
 		position: static
 		+size(100% auto)
 
-		.hamburger
+		.toggle-container
 			display: block
 
 		.header-logo-container
@@ -91,6 +130,7 @@
 
 		.navbar
 			display: none
+			margin-bottom: 0rem
 
 			.header-page-nav
 				li

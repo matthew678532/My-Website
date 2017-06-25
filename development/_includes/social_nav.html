@@ -1,6 +1,10 @@
 <div class="social-nav">
 	{% assign icons = site.data.social.media | sort: 'order' %}
 	{% for icon in icons %}
-		<li><a href="{{ icon.url }}"><i class="fa {{ icon.class }}"></i></a></li>
+		<li>
+			<a href="{{ icon.url }}">
+				<i class="fa {{ icon.class }}"></i>
+			</a>
+		</li>
 	{% endfor %}
 </div>

@@ -144,11 +144,8 @@ table {
 td, th {
   padding: 0; }
 
-:root {
-  text-size: 16px; }
-
 .huge, .large, h1, h2, h3, h4, h5, h6 {
-  color: #212121;
+  color: #37474F;
   margin: 0;
   font-weight: normal; }
 
@@ -196,7 +193,7 @@ li {
 a {
   text-decoration: none;
   font-family: "Yantramanav", sans-serif;
-  color: #212121; }
+  color: #37474F; }
 
 button {
   border: none; }
@@ -219,10 +216,10 @@ body {
   -webkit-tap-highlight-color: rgba(224, 224, 224, 0.2); }
 
 body {
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1;
   font-family: "Yantramanav", sans-serif;
-  color: #212121;
+  color: #37474F;
   -webkit-font-smoothing: antialiased !important;
   -webkit-text-size-adjust: 100%; }
 
@@ -256,22 +253,44 @@ main {
 
 .header {
   background-color: #e0e0e0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 15rem; }
-  .header .hamburger {
+  .header .toggle-container {
     background-color: inherit;
-    padding: 1em;
+    cursor: pointer;
+    margin: 1rem;
     display: none;
+    width: 3rem;
+    height: 3rem;
     position: absolute;
     top: 0;
     right: 0; }
+    .header .toggle-container .toggle,
+    .header .toggle-container .toggle::before,
+    .header .toggle-container .toggle::after {
+      content: '';
+      position: relative;
+      display: block;
+      height: 4px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      width: 100%;
+      background-color: #37474F; }
+    .header .toggle-container .toggle::before {
+      top: -12px; }
+    .header .toggle-container .toggle::after {
+      top: 12px; }
   .header .header-title-container {
     text-align: center;
-    margin-bottom: 1em;
-    padding: 1em; }
+    margin-bottom: 1rem;
+    padding: 1rem; }
   .header .header-logo-container {
     text-align: center; }
     .header .header-logo-container .header-logo {
@@ -282,34 +301,45 @@ main {
       height: 6rem;
       width: 6rem; }
   .header .navbar {
-    margin-bottom: 1em; }
+    margin-bottom: 1rem; }
     .header .navbar .header-page-nav {
       text-align: center; }
       .header .navbar .header-page-nav li {
-        padding: 1em; }
+        padding: 1rem; }
       .header .navbar .header-page-nav a {
         color: #9E9E9E;
         -webkit-transition: color 500ms ease-in-out;
         -o-transition: color 500ms ease-in-out;
         transition: color 500ms ease-in-out; }
         .header .navbar .header-page-nav a:hover {
-          color: #212121; }
+          color: #37474F; }
         .header .navbar .header-page-nav a:active {
-          color: #212121; }
+          color: #37474F; }
     .header .navbar .social-nav {
       -webkit-transform: translate(-50%, 0);
           -ms-transform: translate(-50%, 0);
               transform: translate(-50%, 0);
-      margin-bottom: 1em;
+      margin-bottom: 1rem;
       position: absolute;
       bottom: 0;
       left: 50%; }
       .header .navbar .social-nav li {
-        padding: -webkit-calc(1em / 4);
-        padding: calc(1em / 4);
+        padding: -webkit-calc(1rem / 4);
+        padding: calc(1rem / 4);
         display: inline-block; }
       .header .navbar .social-nav a {
         font-size: 1.2rem; }
+        .header .navbar .social-nav a > i {
+          -webkit-transition: color 300ms ease;
+          -o-transition: color 300ms ease;
+          transition: color 300ms ease;
+          color: #37474F; }
+      .header .navbar .social-nav .fa-linkedin:hover {
+        color: #0077B5; }
+      .header .navbar .social-nav .fa-google-plus:hover {
+        color: #dd4b39; }
+      .header .navbar .social-nav .fa-facebook:hover {
+        color: #3B5998; }
 
 @media (max-width: 992px) {
   .header {
@@ -330,7 +360,7 @@ main {
     position: static;
     height: auto;
     width: 100%; }
-    .header .hamburger {
+    .header .toggle-container {
       display: block; }
     .header .header-logo-container {
       text-align: left;
@@ -340,6 +370,7 @@ main {
         height: 3rem;
         width: 3rem; }
     .header .navbar {
-      display: none; }
+      display: none;
+      margin-bottom: 0rem; }
       .header .navbar .header-page-nav li {
         display: block; } }

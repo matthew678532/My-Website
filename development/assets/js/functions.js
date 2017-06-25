@@ -6,7 +6,7 @@ $(function() {
 });
 
 function showMenu() {
-	$('.hamburger').on('click', () => {
+	$('.toggle-container').on('click', () => {
 		$('.navbar').slideToggle();
 	})
 }
