@@ -7,6 +7,7 @@ $(function() {
 
 function showMenu() {
 	$('.toggle-container').on('click', () => {
+		$('.toggle-container').toggleClass('active')
 		$('.navbar').slideToggle();
 	})
 }

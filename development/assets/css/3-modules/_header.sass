@@ -19,17 +19,30 @@
 			content: ''
 			position: relative
 			display: block
-			height: 4px
 			top: 50%
 			transform: translateY(-50%)
-			width: 100%
 			background-color: $font-color
+			transition: all 350ms ease
+			+size(100% 4px)
 
 		.toggle::before
 			top: -12px
 
 		.toggle::after
 			top: 12px
+
+		&.active .toggle
+			transform: rotate(90deg)
+			background-color: transparent
+
+		&.active .toggle::before
+			top: 2px
+			transform: rotate(45deg)
+
+		&.active .toggle::after
+			top: -2px
+			transform: rotate(-45deg)
+
 
 
 	.header-title-container

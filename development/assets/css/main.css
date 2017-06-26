@@ -276,17 +276,35 @@ main {
       content: '';
       position: relative;
       display: block;
-      height: 4px;
       top: 50%;
       -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
               transform: translateY(-50%);
-      width: 100%;
-      background-color: #37474F; }
+      background-color: #37474F;
+      -webkit-transition: all 350ms ease;
+      -o-transition: all 350ms ease;
+      transition: all 350ms ease;
+      height: 4px;
+      width: 100%; }
     .header .toggle-container .toggle::before {
       top: -12px; }
     .header .toggle-container .toggle::after {
       top: 12px; }
+    .header .toggle-container.active .toggle {
+      -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+              transform: rotate(90deg);
+      background-color: transparent; }
+    .header .toggle-container.active .toggle::before {
+      top: 2px;
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg); }
+    .header .toggle-container.active .toggle::after {
+      top: -2px;
+      -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
   .header .header-title-container {
     text-align: center;
     margin-bottom: 1rem;
