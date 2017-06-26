@@ -4,5 +4,13 @@ title: Projects
 permalink: /projects/
 redirect_from: /
 ---
-
-<h1>Projects</h1>
+<div class="project-grid">
+	{% for post in site.posts %}
+		<div class="project">
+			<div class="overlay">
+				<p>{{ post.title }}</p>
+				<a href="{{ post.url }}">open</a>
+			</div>
+		</div>
+	{% endfor %}
+</div>
