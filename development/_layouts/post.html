@@ -2,22 +2,5 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<div class="">
-	<div class="">
-		<img src="" alt="">
-	</div>
-	<div class="">
-		<p>{{ page.date | date: "%b %-d, %Y" }}</p>
-		{% if page.author %}
-			<p>{{ page.author }}</p>
-		{% endif %}
-		{% if page.categories %}
-			<p>
-				{% for category in page.categories %}
-					• {{ category }} •
-				{% endfor %}
-			</p>
-		{% endif %}
-	</div>
-</div>
+<h1>Post Layout</h1>
+{{ content }}
