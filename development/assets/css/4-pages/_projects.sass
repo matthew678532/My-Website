@@ -1,0 +1,41 @@
+.project-grid
+	width: 100%
+
+	&::after
+		content: ''
+		clear: both
+		display: block
+
+	.project
+		width: 10rem
+		height: 12rem
+		position: relative
+		background:
+			size: cover
+			position: center
+			color: #37474F
+
+		&:hover
+			.overlay
+				opacity: 1
+
+	.thumbnail
+		width: 100%
+		height: 100%
+
+	.overlay
+		background-color: transparentize(black, 0.4)
+		opacity: 0
+		transition: opacity 350ms ease-in-out
+		+position(absolute, 0 0 0 0)
+
+	.overlay-contents
+		position: relative
+		top: 50%
+		transform: translateY(-50%)
+		text-align: center
+
+		& > p
+			margin: 0
+			margin-bottom: 2rem
+			@extend h2

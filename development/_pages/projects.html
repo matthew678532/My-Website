@@ -4,13 +4,16 @@ title: Projects
 permalink: /projects/
 redirect_from: /
 ---
+
 <div class="project-grid">
 	{% for post in site.posts %}
 		<div class="project">
 			<img class="thumbnail" src="{{ post.thumbnail | prepend: site.baseurl }}" alt="">
 			<div class="overlay">
-				<p>{{ post.title }}</p>
-				<a href="{{ post.url }}">open</a>
+				<div class="overlay-contents">
+					<p>{{ post.title }}</p>
+					<a class="button" href="{{ post.url }}">open</a>
+				</div>
 			</div>
 		</div>
 	{% endfor %}
