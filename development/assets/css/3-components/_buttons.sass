@@ -1,4 +1,12 @@
 .button
-	border: calc(1em / 6) solid $teal
+	display: inline-block
+	border: calc(1em / 6) solid $accent-color
 	padding: calc(1em / 2) 1em
-	color: white
+	color: $accent-color
+	text-transform: uppercase
+	transition: all 350ms ease-in-out
+
+	&:hover
+		background-color: $accent-color
+		color: $base-color
+		transform: skewX(-15deg)

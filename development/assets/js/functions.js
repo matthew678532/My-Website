@@ -6,8 +6,7 @@ $(function() {
 
 	$('.project-grid').masonry({
   	itemSelector: '.project',
-  	columnWidth: 160,
-  	gutter: 10
+  	columnWidth: 192,
 	});
 });
 
