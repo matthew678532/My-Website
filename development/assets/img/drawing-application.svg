@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-16, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #000;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #e0e0e0;
+      }
+
+      .cls-3 {
+        fill: aqua;
+      }
+
+      .cls-4 {
+        fill: #bdbdbd;
+      }
+
+      .cls-5, .cls-6, .cls-8 {
+        fill: #263238;
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-7, .cls-8 {
+        font-size: 2px;
+        font-family: "Alegreya Sans SC";
+      }
+
+      .cls-9 {
+        fill: #b71c1c;
+      }
+
+      .cls-10 {
+        fill: #f44336;
+      }
+
+      .cls-11 {
+        fill: #1b5e20;
+      }
+
+      .cls-12 {
+        fill: #4caf50;
+      }
+
+      .cls-13 {
+        fill: #0d47a1;
+      }
+
+      .cls-14 {
+        fill: #fafafa;
+      }
+
+      .cls-15 {
+        fill: #9e9e9e;
+      }
+
+      .cls-17 {
+        fill: red;
+      }
+
+      .cls-18 {
+        fill: #2aff00;
+      }
+
+      .cls-19 {
+        fill: #001eff;
+      }
+
+      .cls-20 {
+        fill: #fcff00;
+      }
+    </style>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <rect class="cls-1" x="3" y="24" width="94" height="50"/>
+    <rect x="91" y="24" width="6" height="50"/>
+    <rect x="3" y="24" width="6" height="50"/>
+    <rect x="3" y="24" width="94" height="1"/>
+    <rect id="Rectangle_6_copy" data-name="Rectangle 6 copy" x="3" y="73" width="94" height="1"/>
+    <rect class="cls-2" x="9" y="28" width="82" height="16"/>
+    <rect class="cls-3" x="40" y="39" width="10" height="4"/>
+    <rect class="cls-4" x="9" y="25" width="82" height="4"/>
+    <path class="cls-5" d="M88.5,28l0.469-.471h0L90,26.494,89.508,26l-1.031,1.035-1.008-1.011L87,26.494l1.008,1.011h0L88.5,28h0Z"/>
+    <rect class="cls-6" x="10" y="30" width="9" height="4"/>
+    <rect id="Rectangle_7_copy_3" data-name="Rectangle 7 copy 3" class="cls-6" x="20" y="30" width="9" height="4"/>
+    <rect id="Rectangle_7_copy" data-name="Rectangle 7 copy" class="cls-6" x="10" y="35" width="9" height="4"/>
+    <rect id="Rectangle_7_copy_5" data-name="Rectangle 7 copy 5" class="cls-6" x="30" y="30" width="9" height="4"/>
+    <rect id="Rectangle_7_copy_2" data-name="Rectangle 7 copy 2" class="cls-6" x="20" y="35" width="9" height="4"/>
+    <rect id="Rectangle_7_copy_4" data-name="Rectangle 7 copy 4" class="cls-6" x="30" y="35" width="9" height="4"/>
+    <text id="ERASE" class="cls-7" x="11" y="32.5">ERASE</text>
+    <text id="CLEAR" class="cls-7" x="21" y="32.5">CLEAR</text>
+    <text id="SAVE" class="cls-7" x="11" y="37.5">SAVE</text>
+    <text id="UNDO" class="cls-7" x="21" y="37.5">UNDO</text>
+    <text id="FILL" class="cls-7" x="31" y="37.5">FILL</text>
+    <text id="PEN" class="cls-7" x="31" y="32.5">PEN</text>
+    <text id="PEN_WIDTH" data-name="PEN WIDTH" class="cls-7" x="51" y="31.5">PEN WIDTH</text>
+    <text id="SELECT_COLOR" data-name="SELECT COLOR" class="cls-7" x="62" y="31.5">SELECT COLOR</text>
+    <text id="PAINT_PALLET" data-name="PAINT PALLET" class="cls-7" x="62" y="39.5">PAINT PALLET</text>
+    <text id="TOOLS" class="cls-8" x="10" y="27.5">TOOLS</text>
+    <rect class="cls-9" x="40" y="30" width="5" height="2"/>
+    <rect class="cls-10" x="45" y="30" width="5" height="2"/>
+    <rect class="cls-11" x="40" y="32" width="8" height="2"/>
+    <rect class="cls-12" x="48" y="32" width="2" height="2"/>
+    <rect class="cls-13" x="40" y="34" width="10" height="2"/>
+    <rect class="cls-14" x="40" y="36" width="5" height="2"/>
+    <rect class="cls-15" x="45" y="36" width="5" height="2"/>
+    <rect id="Rectangle_14_copy" data-name="Rectangle 14 copy" class="cls-15" x="56" y="33" width="5" height="2"/>
+    <rect x="51" y="33" width="5" height="2"/>
+    <rect id="Rectangle_16_copy" data-name="Rectangle 16 copy" x="65" y="33" width="2" height="2"/>
+    <rect id="Rectangle_16_copy_2" data-name="Rectangle 16 copy 2" class="cls-16" x="67" y="33" width="2" height="2"/>
+    <rect id="Rectangle_16_copy_3" data-name="Rectangle 16 copy 3" class="cls-17" x="69" y="33" width="2" height="2"/>
+    <rect id="Rectangle_16_copy_4" data-name="Rectangle 16 copy 4" class="cls-18" x="65" y="35" width="2" height="2"/>
+    <rect id="Rectangle_16_copy_5" data-name="Rectangle 16 copy 5" class="cls-19" x="67" y="35" width="2" height="2"/>
+    <rect id="Rectangle_16_copy_6" data-name="Rectangle 16 copy 6" class="cls-20" x="69" y="35" width="2" height="2"/>
+    <rect id="Rectangle_16_copy_7" data-name="Rectangle 16 copy 7" class="cls-16" x="65" y="41" width="2" height="2"/>
+    <rect id="Rectangle_16_copy_8" data-name="Rectangle 16 copy 8" class="cls-16" x="67" y="41" width="2" height="2"/>
+    <rect id="Rectangle_16_copy_9" data-name="Rectangle 16 copy 9" class="cls-16" x="69" y="41" width="2" height="2"/>
+  </g>
+</svg>
