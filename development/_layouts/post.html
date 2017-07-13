@@ -2,6 +2,25 @@
 layout: default
 ---
 
-<h2>Post Template</h2>
+{% assign author = site.data.authors[page.author] %}
+{% assign date = page.date | split: ' ' %}
 
-{{ content }}
+<article class="container">
+	<article class="post">
+		<h2>{{ page.title }}</h2>
+		<h6>{{ author.name }} &#8226; {{ date[0] }} &#8226; {{ date[1] }}</h6>
+		<div class="post-hero" style="background-color: {{ page.theme }}">
+			<img src="{{ page.thumbnail }}" alt="{{ page.title }} logo">
+		</div>
+		<div>{{ content }}</div>
+	</article>
+</article>
+<div class="extras">
+	<div class="alternative-posts">
+		{% for post in site.posts %}
+			<div class="alternative-post">
+				<img style="background-color: {{ post.theme }}" src="{{ post.thumbnail }}" alt="{{ post.title }} logo">
+			</div>
+		{% endfor %}
+	</div>
+</div>

@@ -3,11 +3,10 @@
 $(function() {
 	showMenu();
 	menuResizeFix();
-	
+
 	$('.project-grid').masonry({
   	itemSelector: '.project',
   	columnWidth: 224,
-		gutter: 10
 	});
 });
 
