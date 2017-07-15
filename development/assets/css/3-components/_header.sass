@@ -61,7 +61,7 @@
 	.navbar
 		margin-bottom: $standard-margin
 
-		.header-page-nav
+		.page-nav
 			text-align: center
 
 			li
@@ -108,20 +108,27 @@
 
 +respond-to(tablets)
 	.header
-		+size(100% 15rem)
+		position: relative
+		+size(100% auto)
 
 		.header-title-container
 			display: none
 
+		.header-logo-container
+			margin: 0
+			padding: $standard-padding
+
 		.navbar
-			.header-page-nav
+			margin: 0
+
+			.page-nav
 				li
 					display: inline-block
 
 			.social-nav
 				position: relative
 				text-align: center
-				padding: 1rem
+				padding: $standard-padding
 				margin-bottom: 0rem
 
 +respond-to(mobiles)
@@ -135,7 +142,7 @@
 		.header-logo-container
 			text-align: left
 			margin: 0
-			padding: 1rem
+			padding: $standard-padding
 
 			.header-logo
 				+size(3rem 3rem)
@@ -144,6 +151,6 @@
 			display: none
 			margin-bottom: 0rem
 
-			.header-page-nav
+			.page-nav
 				li
 					display: block

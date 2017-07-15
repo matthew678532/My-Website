@@ -1,6 +1,3 @@
-.post > *
-	margin-bottom: $standard-margin
-
 .post-hero
 	width: 100%
 	height: 15rem
@@ -10,21 +7,51 @@
 		height: 100%
 
 .extras
-	background-color: #37474F
-	padding: $standard-padding
+	width: 50%
+	margin: 2rem auto
+	text-align: center
 
-	.alternative-posts
-		display: flex
-		flex-wrap: wrap
-		justify-content: center
-		align-items: center
+.footer
+	text-align: center
 
-	.alternative-post
-		background-color: $base-color
-		border-radius: 50%
-		margin: 2rem
+	.social-nav
 
-		> img
-			width: 95%
-			height: 95%
-			border-radius: 50%
+		li
+			display: inline-block
+			padding: 2rem
+			cursor: pointer
+
+			&:hover a
+				color: $link-hover-color
+
+		a
+			color: $base-color
+			transition: all 500ms ease-in-out
+
+	.page-nav
+
+		li
+			display: inline-block
+			padding: 1rem 1rem 2rem 1rem
+
+		a
+			color: $link-color
+			transition: all 500ms ease-in-out
+
+			&:hover
+				color: $link-hover-color
+
+	.button2
+		margin-bottom: 2rem
+
+	.copyright
+		background-image: url('/assets/img/scenary.jpg')
+		background-position: top
+
+		.copyright-overlay
+			background-color: transparentize(black, 0.6)
+
+			p
+				margin: 0
+				padding: 1rem
+				color: white

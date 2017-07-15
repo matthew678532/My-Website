@@ -5,22 +5,29 @@ layout: default
 {% assign author = site.data.authors[page.author] %}
 {% assign date = page.date | split: ' ' %}
 
+<div style="background-color: {{ page.theme }}; height: 5px"></div>
 <article class="container">
 	<article class="post">
 		<h2>{{ page.title }}</h2>
 		<h6>{{ author.name }} &#8226; {{ date[0] }} &#8226; {{ date[1] }}</h6>
+		<hr>
 		<div class="post-hero" style="background-color: {{ page.theme }}">
 			<img src="{{ page.thumbnail }}" alt="{{ page.title }} logo">
 		</div>
 		<div>{{ content }}</div>
 	</article>
+	<hr>
+	<section class="extras">
+		<h2>Not Satisfied?</h2>
+		<p>Feel free to check out some of my other projects!</p>
+		<div class="alternative-posts">
+			{% for post in site.posts %}
+				<a class="button2" href="{{ post.url }}">{{ post.title }}</a>
+			{% endfor %}
+		</div>
+	</section>
+	<hr>
 </article>
-<div class="extras">
-	<div class="alternative-posts">
-		{% for post in site.posts %}
-			<div class="alternative-post">
-				<img style="background-color: {{ post.theme }}" src="{{ post.thumbnail }}" alt="{{ post.title }} logo">
-			</div>
-		{% endfor %}
-	</div>
-</div>
+<footer class="footer">
+	{% include footer.html %}
+</footer>

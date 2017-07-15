@@ -1,4 +1,4 @@
-.button
+.button1
 	display: inline-block
 	border: calc(1em / 6) solid $accent-color
 	padding: calc(1em / 2) 1em
@@ -10,3 +10,10 @@
 		background-color: $accent-color
 		color: $base-color
 		transform: skewX(-15deg)
+
+.button2
+	border-radius: 0.2rem
+	@extend .button1
+
+	&:hover
+		transform: none
