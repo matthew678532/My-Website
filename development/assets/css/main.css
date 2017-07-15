@@ -317,7 +317,9 @@ main {
     text-align: center; }
     .header .header-logo-container .header-logo {
       display: inline-block;
-      background-color: teal;
+      background-image: url("/assets/img/me.png");
+      -webkit-background-size: cover;
+              background-size: cover;
       -webkit-border-radius: 50%;
               border-radius: 50%;
       height: 6rem;
