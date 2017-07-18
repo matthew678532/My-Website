@@ -6,7 +6,7 @@ layout: default
 {% assign date = page.date | split: ' ' %}
 
 <div style="background-color: {{ page.theme }}; height: 5px"></div>
-<article class="container">
+<div class="container">
 	<article class="post">
 		<h2>{{ page.title }}</h2>
 		<h6>{{ author.name }} &#8226; {{ date[0] }} &#8226; {{ date[1] }}</h6>
@@ -22,12 +22,12 @@ layout: default
 		<p>Feel free to check out some of my other projects!</p>
 		<div class="alternative-posts">
 			{% for post in site.posts %}
-				<a class="button2" href="{{ post.url }}">{{ post.title }}</a>
+				<a class="btn btn-round" href="{{ post.url }}">{{ post.title }}</a>
 			{% endfor %}
 		</div>
 	</section>
 	<hr>
-</article>
+</div>
 <footer class="footer">
 	{% include footer.html %}
 </footer>

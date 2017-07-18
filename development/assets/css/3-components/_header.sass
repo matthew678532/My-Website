@@ -70,13 +70,10 @@
 
 			a
 				color: $link-color
-				transition: color 500ms ease-in-out
+				transition: color #{$average} ease-in-out
 
 				&:hover
 					color: $link-hover-color
-
-				&:active
-					color: $link-active-color
 
 		.social-nav
 			transform: translate(-50%, 0)
@@ -84,28 +81,18 @@
 			+position(absolute, null null 0 50%)
 
 			li
-				padding: calc(#{$standard-padding} / 4)
 				display: inline-block
 
 			a
+				padding: calc(#{$standard-padding} / 1.8)
 				font-size: 1.2rem
 
 				& > i
-					transition: color 300ms ease
-					color: $font-color
+					color: $link-color
+					transition: color #{$average} ease-in-out
 
-			.fa-linkedin
-				&:hover
-					color: $linkedin-blue
-
-			.fa-google-plus
-				&:hover
-					color: $google-red
-
-			.fa-facebook
-				&:hover
-					color: $facebook-blue
-
+				&:hover > i
+					color: $link-hover-color
 
 +respond-to(tablets)
 	.header
@@ -134,9 +121,6 @@
 
 +respond-to(mobiles)
 	.header
-		position: static
-		+size(100% auto)
-
 		.toggle-container
 			display: block
 
