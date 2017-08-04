@@ -1,5 +1,19 @@
-techskills:
-  - 'html5'
-  - 'sass'
-  - 'js'
-  - 'jQuery'
+toolbox:
+  - name: 'HTML5'
+    icon: 'fa-html5'
+
+  - name: 'sass'
+    icon: 'fa-css3'
+
+  - name: 'js'
+    icon: 'fa-code'
+
+  - name: 'jQuery'
+    icon: 'fa-code'
+
+skillsets:
+  - name: 'Web Design/Development'
+    icon: 'fa-desktop'
+
+  - name: 'Android Application Development'
+    icon: 'fa-tablet'

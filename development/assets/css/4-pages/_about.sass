@@ -8,20 +8,71 @@
 
 	.me
 		background: url('/assets/img/me-trial.png') no-repeat
-		background-size: 100%
-		background-position: center
-		width: 70%
+		background-size: cover
+		width: 50%
 		height: 100%
 
 	.page-heading
-		width: 30%
+		width: 50%
 		display: flex
 		flex-direction: column
+		padding: $standard-padding
 
 		& > .large:nth-child(2)
 			color: white
 
 		& .btn
-			background-color: white
+			background-color: #e0e0e0
+			border-color: #e0e0e0
+			color: $font-color
 			width: 10rem
-			margin-top: $standard-margin
+
+			&:hover
+				background-color: $font-color
+				border-color: $font-color
+				color: white
+
+.blurb
+	padding: $standard-padding * 2
+
+	& > h1
+		text-align: center
+
+	& > p
+		text-align: justify
+		width: 50%
+		margin: 1rem auto
+		line-height: 1.6
+
+.skills
+
+	& h1
+		text-align: center
+
+	&::after
+		@extend %clearfix
+
+	.skillset, .toolbox
+		width: 50%
+		float: left
+		padding: $standard-padding * 2
+
+	.skillset
+		background: #e0e0e0
+
+	.toolbox
+		background: $font-color
+		color: white
+
+		& > h1
+			color: white
+
+	.skills-container
+		display: flex
+		justify-content: center
+		flex-wrap: wrap
+		margin: $standard-margin * 2
+
+	.skill
+		text-align: center
+		width: 10rem
